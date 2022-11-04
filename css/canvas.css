@@ -1,0 +1,63 @@
+/* #button_wapper{
+  display: flex;
+  justify-content: center;
+} */
+
+/* オーバーレイ */
+#full-overlay{
+  position: fixed;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(255, 0, 0, 0.5);
+  display: none;
+  z-index: 999;
+}
+
+#full-overlay .inner{
+  position: fixed;
+  left: 50%; top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family:Yu Mincho;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 2;
+}
+
+/* 以下ボタンの設定 */
+/* .button_wapper a {
+  text-decoration: none;
+  background: #eee;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 240px;
+  padding: 10px 25px;
+  color: #313131;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+  z-index:0;
+  font-weight: bold;
+}
+.button_wapper a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  display: block;
+  background: #fa4141;
+  transition: .3s;
+  left:0;
+}
+.button_wapper a:hover {
+  color: #FFF;
+}
+.button_wapper a:hover:before {
+  width: 100%;
+  z-index: -1;
+} */

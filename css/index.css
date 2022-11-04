@@ -1,0 +1,68 @@
+.body{
+  position: relative;
+}
+
+#wrapper{
+  background-color: #fa4141;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#wrapper1{
+  display: flex;
+  justify-content: center;
+  margin-top: 30vh;
+}
+
+h1 {
+  font-size:8.4rem;
+  font-style: italic;
+  letter-spacing: .1em;
+  color: #fff;
+  text-shadow: -4px 3px 0 #fa4141, -8px 6px 0 #000;
+}
+
+/* 以下ボタンの設定 */
+#button_wapper_all{
+  margin-top: 15vh;
+}
+
+.button_wapper a {
+  text-decoration: none;
+  background: #fa4141;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 10px 25px;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+  z-index:0;
+  font-weight: bold;
+  margin-top: 5vh;
+  font-size: 2.4rem;
+}
+.button_wapper a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  display: block;
+  background: rgb(255, 255, 255);
+  transition: .3s;
+  left:0;
+}
+.button_wapper a:hover {
+  color: #313131;
+}
+.button_wapper a:hover:before {
+  width: 100%;
+  z-index: -1;
+}
